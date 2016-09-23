@@ -120,7 +120,7 @@ a:focus {
 .intro {
   display: table;
   width: 25%;
-  height: auto;
+  height: 25%;
   padding: 400px 0;
   text-align: center;
   color: white;
