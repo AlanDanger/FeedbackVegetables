@@ -129,7 +129,7 @@ a:focus {
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: 25%;
   -o-background-size: cover;
 }
 .intro .intro-body {
