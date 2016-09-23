@@ -119,12 +119,12 @@ a:focus {
 }
 .intro {
   display: table;
-  width: 50%;
+  width: 25%;
   height: auto;
   padding: 400px 0;
   text-align: center;
   color: white;
-  background: url(../img/Sebalan.jpg) no-repeat top center scroll;
+  background: url(../img/Sebalan.jpg) no-repeat bottom center scroll;
   background-position: center;
   background-color: black;
   -webkit-background-size: cover;
