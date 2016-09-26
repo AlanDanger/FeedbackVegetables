@@ -168,8 +168,8 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-family: "Megrim", cursive;
-    font-size: 200px;
-    text-shadow: 0 0 10px black;
+    font-size: 100px;
+    text-shadow: 0 0 20px black;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
