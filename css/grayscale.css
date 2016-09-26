@@ -358,7 +358,12 @@ div.desc {
 
 .responsive {
     padding: 6px 6px;
-    float: left;
+    /*float: left;*/
+  
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+  
     width: 24.99999%;
     justify-content: space-around;
 }
