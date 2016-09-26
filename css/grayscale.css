@@ -29,7 +29,7 @@ h6 {
 p {
   margin: 0 0 25px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1;
 }
 @media (min-width: 768px) {
   p {
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #DADADA
 }
 .light {
   font-weight: 400;
@@ -123,6 +123,7 @@ a:focus {
   height: 100%;
   padding: 0px 0;
   text-align: center;
+  text-shadow: 0 0 10px black
   color: white;
   background: url(../img/Sebalan_Large.jpg) no-repeat top center scroll;
   background-color: black;
@@ -224,6 +225,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
+  text-shadow: 0 0 10px black
   background: url(../img/Double-Exp-Seb-Lg.jpg) no-repeat top center scroll;
   background-color: black;
   -webkit-background-size: cover;
