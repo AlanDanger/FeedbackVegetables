@@ -357,7 +357,8 @@ div.desc {
 }
 
 .responsive {
-    padding: 6px 6px;
+    /*padding: 6px 6px;*/
+    margin: 6px auto;
     float: left;
     width: 24.99999%;
 }
