@@ -22,6 +22,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
+  text-shadow: 0 0 10px black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -30,12 +31,14 @@ p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1;
+  text-shadow: 0 0 10px black;
 }
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
     font-size: 20px;
     line-height: 1;
+    text-shadow: 0 0 10px black;
   }
 }
 a {
@@ -72,35 +75,44 @@ a:focus {
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
+  text-shadow: 0 0 10px black;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
+  text-shadow: 0 0 10px black;
 }
 .navbar-custom a {
   color: white;
+  text-shadow: 0 0 10px black;
 }
 .navbar-custom .nav li a {
+  text-shadow: 0 0 10px black;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
+  text-shadow: 0 0 10px black;
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
+  text-shadow: 0 0 10px black;
   outline: none;
   background-color: transparent;
 }
 .navbar-custom .nav li.active {
+  text-shadow: 0 0 10px black;
   outline: none;
 }
 .navbar-custom .nav li.active a {
+  text-shadow: 0 0 10px black;
   background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
+  text-shadow: 0 0 10px black;
   color: white;
 }
 @media (min-width: 768px) {
