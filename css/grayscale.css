@@ -39,6 +39,7 @@ p {
   }
 }
 a {
+  text-shadow: 0 0 10px black
   color: #EAEAEA;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -46,6 +47,7 @@ a {
 }
 a:hover,
 a:focus {
+  text-shadow: 0 0 10px black
   text-decoration: none;
   color: #CACACA
 }
@@ -104,6 +106,7 @@ a:focus {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
+    text-shadow: 0 0 10px black
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
@@ -113,6 +116,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
+    text-shadow: 0 0 10px black
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
