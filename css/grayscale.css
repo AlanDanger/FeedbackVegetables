@@ -154,6 +154,7 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
+  font-family: "Megrim", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
@@ -165,6 +166,7 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
+    font-family: "Megrim", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 80px;
   }
   .intro .intro-body .intro-text {
