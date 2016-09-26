@@ -335,11 +335,11 @@ body {
 }
 /*------------Image Gallery------------*/
 div.img {
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    /*border: 1px solid #777;*/
 }
 
 div.img img {
@@ -358,7 +358,7 @@ div.desc {
 
 .responsive {
     padding: 0 6px;
-    float: left;
+    float: center;
     width: 24.99999%;
 }
 
