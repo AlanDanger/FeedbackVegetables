@@ -358,14 +358,8 @@ div.desc {
 
 .responsive {
     padding: 6px 6px;
-    /*float: left;*/
-  
-    float: right;
-    position: relative;
-    left: -50%; /* or right 50% */
-  
+    float: left;
     width: 24.99999%;
-    justify-content: space-around;
 }
 
 @media only screen and (max-width: 700px){
