@@ -336,18 +336,15 @@ body {
 /*------------Image Gallery------------*/
 div.img {
     border: 1px solid #ccc;
-    justify-content: space-between;
 }
 
 div.img:hover {
     border: 1px solid #777;
-    justify-content: space-between;
 }
 
 div.img img {
     width: 100%;
     height: auto;
-    justify-content: space-between;
 }
 
 div.desc {
