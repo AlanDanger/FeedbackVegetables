@@ -393,18 +393,15 @@ div.desc {
 }
 
 .stars {
-    display: block;
-    width: 100%;
-    height: 100%;
-    left: -50%;
-    background: url(../img/stars.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    -webkit-animation-name: rotate;
-    -webkit-animation-duration: 40s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    z-index: 100;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: -50%;
+  top: 0;
+  background: url(../img/stars.png);
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  z-index: 100;
 }
