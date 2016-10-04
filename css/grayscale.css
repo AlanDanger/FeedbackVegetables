@@ -387,6 +387,11 @@ div.desc {
 }
 
 /*----------- Star Rotation -------------*/
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg);  }
+  to { -webkit-transform: rotate(360deg);  }
+}
+
 .stars {
     position: absolute;
     left: -50%;
@@ -394,7 +399,7 @@ div.desc {
     display: block;
     width: 1500px;
     height: 800px;
-    top: 0;
+    top: -400;
     -webkit-animation-name: rotate;
     -webkit-animation-duration: 40s;
     -webkit-animation-iteration-count: infinite;
