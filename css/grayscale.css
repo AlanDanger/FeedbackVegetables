@@ -398,6 +398,10 @@ div.desc {
     height: 100%;
     left: -50%;
     background: url(../img/stars.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     -webkit-animation-name: rotate;
     -webkit-animation-duration: 40s;
     -webkit-animation-iteration-count: infinite;
