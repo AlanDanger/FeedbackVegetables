@@ -397,7 +397,7 @@ div.desc {
   /*display: block;*/
   width: 1500px;
   height: 800px;
-  left: -50%;
+  left: -25%;
   top: -25%;
   background: url(../img/stars.png);
   -webkit-animation-name: rotate;
