@@ -393,7 +393,7 @@ div.desc {
 }
 
 .stars {
-  position: absolute;
+  /*position: absolute;*/
   display: block;
   width: 1500px;
   height: 800px;
