@@ -396,10 +396,10 @@ div.desc {
     position: absolute;
     left: -50%;
     background: url(../img/stars.png);
-    display: inline-block;
+    display: table;
     width: 1500px;
     height: 800px;
-    /*top: -400;*/
+    top: 0;
     -webkit-animation-name: rotate;
     -webkit-animation-duration: 40s;
     -webkit-animation-iteration-count: infinite;
