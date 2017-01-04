@@ -163,9 +163,15 @@ a:focus {
 .intro .intro-body .brand-heading-sub {
   text-transform: none;
   font-family: "Roboto Slab";
-  font-size: 40px;
+  font-size: 50px;
   text-shadow: 0 0 10px black;
 }
+.intro .intro-body .brand-heading-and {
+  text-transform: none;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+  text-shadow: 0 0 10px black;
+ }
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
@@ -180,6 +186,12 @@ a:focus {
     text-shadow: 0 0 20px black;
   }
   .intro .intro-body .brand-heading-sub {
+    text-transform: none;
+    font-family: "Roboto Slab";
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+  }
+  .intro .intro-body .brand-heading-and {
     text-transform: none;
     font-family: "Roboto Slab";
     font-size: 40px;
