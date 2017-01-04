@@ -76,9 +76,18 @@ a:focus {
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
+
 .navbar-custom .navbar-brand {
+  font-size: 10px;
   font-weight: 700;
   text-shadow: 0 0 10px black;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom .navbar-brand {
+    font-weight: 700;
+    text-shadow: 0 0 10px black;
+  }
 }
 
 .navbar-custom .navbar-brand:focus {
