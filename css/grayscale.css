@@ -156,17 +156,20 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
+  margin: 0 0 10px;
   font-family: "Megrim", cursive;
   font-size: 80px;
   text-shadow: 0 0 10px black;
 }
 .intro .intro-body .brand-heading-sub {
+  margin: 0 0 10px;
   text-transform: none;
   font-family: "Roboto Slab";
   font-size: 50px;
   text-shadow: 0 0 10px black;
 }
 .intro .intro-body .brand-heading-and {
+  margin: 0 0 10px;
   text-transform: none;
   font-family: "Roboto Slab";
   font-size: 40px;
@@ -181,17 +184,20 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
+    margin: 0 0 10px;
     font-family: "Megrim", cursive;
     font-size: 80px;
     text-shadow: 0 0 20px black;
   }
   .intro .intro-body .brand-heading-sub {
+    margin: 0 0 10px;
     text-transform: none;
     font-family: "Roboto Slab";
     font-size: 50px;
     text-shadow: 0 0 10px black;
   }
   .intro .intro-body .brand-heading-and {
+    margin: 0 0 10px;
     text-transform: none;
     font-family: "Roboto Slab";
     font-size: 40px;
