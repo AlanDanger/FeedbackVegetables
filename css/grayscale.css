@@ -165,23 +165,23 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   font-family: "Megrim", cursive;
   font-size: 50px;
   text-shadow: 0 0 10px black;
 }
 .intro .intro-body .brand-heading-sub {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   text-transform: none;
   font-family: "Roboto Slab";
   font-size: 40px;
   text-shadow: 0 0 10px black;
 }
 .intro .intro-body .brand-heading-and {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   text-transform: none;
   font-family: "Roboto Slab";
-  font-size: 10px;
+  font-size: 20px;
   text-shadow: 0 0 10px black;
  }
 .intro .intro-body .intro-text {
