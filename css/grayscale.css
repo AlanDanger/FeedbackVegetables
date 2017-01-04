@@ -84,7 +84,7 @@ a:focus {
 
 @media screen and (max-width: 500px) {
   .navbar-custom .navbar-brand {
-    font-size: 10px;
+    font-size: 12px;
     text-shadow: 0 0 10px black;
   }
 }
