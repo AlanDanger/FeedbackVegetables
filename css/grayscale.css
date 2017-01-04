@@ -57,7 +57,7 @@ a:focus {
   color: #CACACA
 }
 .light {
-  font-weight: 400;
+  font-weight: 200;
   text-shadow: 0 0 10px black;
 }
 .navbar-custom {
@@ -77,15 +77,8 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 300;
+  font-weight: 700;
   text-shadow: 0 0 10px black;
-}
-
-@media (min-width: 768px) {
-  .navbar-custom .navbar-brand {
-    font-weight: 500;
-    text-shadow: 0 0 10px black;
-  }
 }
 
 .navbar-custom .navbar-brand:focus {
