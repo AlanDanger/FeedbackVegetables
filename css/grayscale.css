@@ -178,14 +178,14 @@ a:focus {
 .intro .intro-body .brand-heading-sub {
   margin: 0 0 5px;
   text-transform: none;
-  font-family: "blow";
+  font-family: "Roboto Slab";
   font-size: 40px;
   text-shadow: 0 0 10px black;
 }
 .intro .intro-body .brand-heading-and {
   margin: 0 0 5px;
   text-transform: none;
-  font-family: "blow";
+  font-family: "Roboto Slab";
   font-size: 20px;
   text-shadow: 0 0 10px black;
  }
@@ -206,14 +206,14 @@ a:focus {
   .intro .intro-body .brand-heading-sub {
     margin: 0 0 10px;
     text-transform: none;
-    font-family: "blow";
+    font-family: "Roboto Slab";
     font-size: 50px;
     text-shadow: 0 0 10px black;
   }
   .intro .intro-body .brand-heading-and {
     margin: 0 0 10px;
     text-transform: none;
-    font-family: "blow";
+    font-family: "Roboto Slab";
     font-size: 40px;
     text-shadow: 0 0 10px black;
   }
