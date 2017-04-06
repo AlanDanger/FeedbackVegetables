@@ -340,10 +340,12 @@ a:focus {
 }
 ul.banner-social-buttons {
   margin-top: 15px;
+    display: inline;
 }
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
+    display: inline;
   }
 }
 @media (max-width: 767px) {
