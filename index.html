@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>The Lobster Starship</title>
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap4-retro.css">
+		
+		<LINK REL="icon" HREF="TLS.ico">
+
+</head>
+<body>
+
+	<div class="jumbotron bg-secondary text-center text-danger mb-0 radius-0">
+		<div class="container">
+		<div class="ht-tm-header">
+			<h1 class="display-1 display-xxl text-uppercase">The Lobster Starship</h1>
+			<span class="lead">The Future Begins Here!</span>
+		</div>
+		</div>
+	</div>
+	
+	<!--<div class="bg-banner py-10" align="center">
+	</div>-->
+
+	<div class="bg-primary container py-1 text-danger">
+		<h2>BIO</h2>
+
+		<p>
+		Once upon a time, on a planet not unlike our own, a crustacean race created the most powerful starship the galaxy had ever seen.
+		These are the stories of the crew members currently aboard that starship.
+		</p>
+	</div>
+	
+	<div class="bg-primary container py-1 text-danger">
+		<h2>MEET THE CREW</h2>
+	
+		<div class="container" align="center">
+			<!-- Trigger the Modal -->
+			<img id="Seb" src="img/Sebs_Axe.jpg" alt="Sebastian &quot;Seb&quot; Alarcon - Guitar" width=16% height=16%>
+			<img id="Danger" src="img/Alan_Mars_Attacks.jpg" alt="Alan Danger - Guitar/Vocals" width=17% height=17%>
+			<img id="Jer" src="img/Cool_Hand_Jer.jpg" alt="Jeremy &quot;Fungus&quot; Albright - Vocals" width=18% height=18%>
+			<img id="Shelby" src="img/Shelby_Thinks.jpg" alt="Shelby &quot;The Professor Cole&quot; - Drums" width=17% height=17%>
+			<img id="Greg" src="img/Crazy_Greg.jpg" alt="Greg Stout - Bass" width=16% height=16%>
+		</div>
+			
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- The Close Button -->
+			<span class="close">&times;</span>
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="img01">
+			<!-- Modal Caption (Image Text) -->
+			<div id="caption"></div>
+		</div>
+		
+	</div>
+	
+	<div class="bg-primary container py-1 text-danger">
+		<h2>HEAR THEIR TALES</h2>
+		<div class="container">
+			<p align="center">
+				<a href="http://feedbackvegetables.com/album/vi"><img src="img/S6.jpg" style="width:20%; height:20%" title="VI" alt="Six"></a>
+				<a href="http://feedbackvegetables.com/album/v"><img src="img/S5.jpg" style="width:20%; height:20%" title="V" alt="Five"></a>
+				<a href="http://feedbackvegetables.com/album/iv"><img src="img/S4.jpg" style="width:20%; height:20%" title="IV" alt="Four"></a>
+			</p><p align="center">
+				<a href="http://feedbackvegetables.com/album/iii"><img src="img/S3.jpg" style="width:20%; height:20%" title="III" alt="Three"></a>
+				<a href="http://feedbackvegetables.com/album/i"><img src="img/S2.jpg" style="width:20%; height:20%" title="II" alt="Two"></a>
+				<a href="http://feedbackvegetables.com/album/Sebalan"><img src="img/S1.jpg" style="width:20%; height:20%" title="I" alt="One"></a>
+			</p>
+		</div>
+	</div>
+	
+	<div class="bg-primary container py-1">
+		<div class="container py-1 text-danger">
+			<h2>CONTACT</h2>
+
+			<p>For artist inquiries, booking, or to tell us how much you hate us, please use the following options:<br>
+			<a href="contact@thelobsterstarship.com">Contact@TheLobsterStarship</a></p>
+		</div>
+		
+		<div class="container btn-group-sm" align="center">
+			<a href="https://www.instagram.com/thelobsterstarship/" class="btn btn-outline-danger"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+			<a href="https://www.facebook.com/TheLobsterStarship/" class="btn btn-outline-danger"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+			<a href="https://open.spotify.com/artist/12LP4yHzYLvw6vIN0fvNJR" class="btn btn-outline-danger"><i class="fa fa-spotify fa-fw"></i> <span class="network-name">Spotify</span></a>
+			<a href="https://twitter.com/AlanDangerMusic" class="btn btn-outline-danger"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+		</div>
+		
+	</div>
+
+    <!-- Modal JavaScript -->
+	<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		// Load Var Images
+		var img1 = document.getElementById('Danger');
+		var img2 = document.getElementById('Seb');
+		var img2 = document.getElementById('Jer');
+		
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		
+		Danger.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		Seb.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		Jer.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		Shelby.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		Greg.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+			modal.style.display = "none";
+		}
+	</script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
