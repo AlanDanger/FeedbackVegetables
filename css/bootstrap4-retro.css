@@ -7811,7 +7811,7 @@ a.text-dark:hover, a.text-dark:focus {
 .display-2,
 .display-3,
 .display-4 {
-  font-family: "Shrikhand", sans-serif; }
+  font-family: Zoika, sans-serif; }
   .display-1.text-danger,
   .display-2.text-danger,
   .display-3.text-danger,
@@ -7956,6 +7956,12 @@ a.text-dark:hover, a.text-dark:focus {
     .modal-content {
         width: 100%;
     }
+}
+
+/*ZOIKA*/
+@font-face {
+  font-family: Zoika;
+  src: url("../alandanger/Zoika.ttf");
 }
 
 /* Zoom JavaScript */
